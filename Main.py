@@ -1,6 +1,6 @@
 from typing import List
 
-def quick_sort(data, low, high) -> List[int]:
+def sorting(data, low ,high):
     # Write code here
     i=low-1
     pivot = data[high]
@@ -11,6 +11,7 @@ def quick_sort(data, low, high) -> List[int]:
     data[i+1], data[high] = data[high],data[i+1]
     return i+1
 # the basic code of quick sort to divide it from the pivot element
+
 def quick_sort(data, low, high) -> List[int]:
     if low<high:
         pi = sorting(data,low,high)
